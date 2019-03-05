@@ -1,4 +1,4 @@
-# SPDL-for-Face-Recognition
+# SPDL for Face Recognition
 Self-paced Robust Deep Face Recognition with Label Noise
 
 ### Requirements
