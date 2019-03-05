@@ -1,18 +1,18 @@
 # SPDL-for-Face-Recognition
 Self-paced Robust Deep Face Recognition with Label Noise
 
-## Requirements
+### Requirements
 1. [Caffe](http://caffe.berkeleyvision.org/installation.html)
 2. [MTCNN](https://github.com/kpzhang93/MTCNN_face_detection_alignment)
 
-## Dataset
-#### Training Dataset
+### Dataset
+##### Training Dataset
 
 `CASIA-WebFace`
 
 [`MS-Celeb-1M`](https://www.microsoft.com/en-us/research/project/ms-celeb-1m-challenge-recognizing-one-million-celebrities-real-world/)
 
-#### Testing Dataset
+##### Testing Dataset
 
 [`LFW`](http://vis-www.cs.umass.edu/lfw)
 
@@ -20,20 +20,20 @@ Self-paced Robust Deep Face Recognition with Label Noise
 
 [`MegaFace`](http://megaface.cs.washington.edu)
 
-## Code
+### Code
 
 Please put the `include/softmax_selfpace_loss_layer.hpp` into the `YOUR-CAFFE-HOME/include/caffe/layers/`,  
 put the `src/softmax_selfpace_loss_layer.cpp` and `src/softmax_selfpace_loss_layer.cu` into the `YOUR-CAFFE-HOME/src/caffe/layers/`.
 Then modify your `caffe.proto`.
 
-## Model 
+### Model 
 Waiting
 
-## Citaion
+### Citaion
 Waiting
 
-## Contact
+### Contact
 [Wenya Ma](wyma@tju.edu.cn)
 
-## License
+### License
 SPDL is released under the MIT License
